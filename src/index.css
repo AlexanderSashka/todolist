@@ -1,0 +1,101 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Установка базовых стилей для всех элементов */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Установка box-sizing для всех элементов, включая псевдоэлементы */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Удаление обводки при фокусе и активации */
+:focus,
+:active {
+  outline: none;
+}
+
+/* Удаление обводки для ссылок при фокусе и активации */
+a:focus,
+a:active {
+  outline: none;
+}
+
+/* Установка высоты и минимальной ширины для html и body */
+html,
+body {
+  height: 100%;
+  min-width: 320px; /* Замените $minWidth на конкретное значение, например, 320px */
+}
+
+/* Основные стили для body */
+body {
+  color: #333; /* Замените $mainColor на конкретный цвет */
+  line-height: 1;
+  font-family: Arial, sans-serif; /* Замените $fontFamily на конкретное семейство шрифтов */
+  font-size: 16px; /* Замените $fontSize на конкретный размер шрифта */
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Переопределение стилей для input, button, textarea */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Стили для кнопок */
+button {
+  cursor: pointer;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* Стили для ссылок */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Удаление маркера списка для элементов ul li */
+ul li {
+  list-style: none;
+}
+
+/* Вертикальное выравнивание изображений */
+img {
+  vertical-align: top;
+}
+
+/* Наследование настроек шрифтов для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
